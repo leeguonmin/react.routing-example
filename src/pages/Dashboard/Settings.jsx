@@ -1,11 +1,4 @@
-{
-  /* <div>
-  <h3>Settings</h3>
-  <p>This is the Settings page</p>
-</div>; */
-}
-
-function Settings() {
+function settings() {
   return (
     <div>
       <h3>Settings</h3>
@@ -14,4 +7,4 @@ function Settings() {
   );
 }
 
-export default Settings;
+export default settings;

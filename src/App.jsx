@@ -14,6 +14,8 @@ import Navber from "/src/components/Navber";
 import Profile from "/src/pages/Dashboard/Profile";
 import Settings from "/src/pages/Dashboard/Settings";
 
+import "./routing.css";
+
 function App() {
   return (
     <div>
@@ -30,7 +32,7 @@ function App() {
           {/* Nested Routing 하위 라우팅? 추가 */}
           <Route path="/dashboard" element={<Dashboard />}>
             <Route path="profile/:userid" element={<Profile />} />
-            <Route path="srttings" element={<Settings />} />
+            <Route path="settings" element={<Settings />} />
           </Route>
         </Routes>
       </article>

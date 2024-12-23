@@ -17,7 +17,7 @@
 </nav>; */
 // }
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navber() {
   return (
@@ -25,19 +25,19 @@ function Navber() {
       <ul>
         <li>
           {/* <a href="/">Home</a> */}
-          <Link to="/">Home</Link>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
           {/* <a href="/about">About</a> */}
-          <Link to="/about">About</Link>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
           {/* <a href="/contact">Contact</a> */}
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
         <li>
           {/* <a href="/dashboard">Dashboard</a> */}
-          <Link to="/dashboard">Dashboard</Link>
+          <NavLink to="/dashboard">Dashboard</NavLink>
         </li>
       </ul>
     </navber>
